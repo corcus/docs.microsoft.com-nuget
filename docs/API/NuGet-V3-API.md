@@ -5,7 +5,7 @@ title: NuGet V3 API | Microsoft Docs
 author: kraigb
 ms.author: kraigb
 manager: ghogen
-ms.date: 1/9/2017
+ms.date: 7/18/2017
 ms.topic: article
 ms.prod: nuget
 #ms.service:
@@ -15,8 +15,8 @@ ms.assetid: 100606fd-0a03-4274-8ebf-7d778f73869c
 
 # optional metadata
 
-description: The NuGet V3 API is the set of HTTP endpoints which allow clients to download, search, and get metadata for existing
-packages as well as push and delete packages which the user owns.
+description: The NuGet V3 API is the set of HTTP endpoints which allow clients to download, search, and get metadata for existing packages as well as push and delete packages which the user owns.
+keywords: http, nuget, v3, index, registration, search, push, delete, metadata
 #ROBOTS:
 #audience:
 #ms.devlang:
