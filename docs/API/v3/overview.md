@@ -31,3 +31,19 @@ ms.reviewer:
 
 The NuGet V3 API is a set of HTTP endpoints that can be used to download packages, fetch metadata, publish new packages,
 and perform most other operations available in the official NuGet clients.
+
+## Service Index
+
+The entry point for the V3 API is a JSON document in a well known location. For NuGet.org, the location of the V3
+service index is here:
+
+```
+https://api.nuget.org/v3/index.json
+```
+
+This JSON document contains a list of versioned *resources* which provide different functionality and fulfill different
+use cases. For example, NuGet.org's V3 service index looks something like is this:
+
+[!code-REST [service-index.json](./_data/api/v3/service-index.json)]
+
+Under the `"resources"` property is an array of services supported by this package source.
