@@ -16,19 +16,9 @@
       "comment": "Query endpoint of NuGet Search service (primary) used by RC clients"
     },
     {
-      "@id": "https://api-v2v3search-1.nuget.org/query",
-      "@type": "SearchQueryService/3.0.0-rc",
-      "comment": "Query endpoint of NuGet Search service (secondary) used by RC clients"
-    },
-    {
       "@id": "https://api-v2v3search-0.nuget.org/autocomplete",
       "@type": "SearchAutocompleteService/3.0.0-rc",
       "comment": "Autocomplete endpoint of NuGet Search service (primary) used by RC clients"
-    },
-    {
-      "@id": "https://api-v2v3search-1.nuget.org/autocomplete",
-      "@type": "SearchAutocompleteService/3.0.0-rc",
-      "comment": "Autocomplete endpoint of NuGet Search service (secondary) used by RC clients"
     },
     {
       "@id": "https://api.nuget.org/v3/registration2/",

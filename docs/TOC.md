@@ -61,6 +61,7 @@
 # API
 ## [Overview](API/introduction.md)
 ## [V3 API](API/v3/overview.md)
+### [Service Index](API/v3/service-index.md)
 ### [Publishing Packages](API/v3/publishing.md)
 ### [Search Service](API/v3/search.md)
 ### [Autocomplete Service](API/v3/autocomplete.md)
