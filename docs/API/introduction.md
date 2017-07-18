@@ -44,5 +44,5 @@ Studio Team Services package management, you can either:
 NuGet supports extensions on how users authenticate with packages sources via **credential providers**. There are two
 forms of credential providers each used by a different client experience.
 
-1. Credential providers for <a href="NuGet-Credential-Providers-for-Visual-Studio.md">package management in Visual Studio</a>.
-1. Credential providers for <a href="nuget-exe-Credential-Providers.md">command-line operations with nuget.exe</a>.
+1. <a href="NuGet-Credential-Providers-for-Visual-Studio.md">Credential providers for Visual Studio</a>.
+1. <a href="nuget-exe-Credential-Providers.md">Credential providers for nuget.exe</a>.
