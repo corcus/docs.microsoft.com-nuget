@@ -44,6 +44,6 @@ https://api.nuget.org/v3/index.json
 This JSON document contains a list of versioned *resources* which provide different functionality and fulfill different
 use cases. For example, NuGet.org's V3 service index looks something like is this:
 
-[!code-REST [service-index.json](./_data/api/v3/service-index.json)]
+[!code-REST [service-index.json](./_data/service-index.json)]
 
 Under the `"resources"` property is an array of services supported by this package source.
