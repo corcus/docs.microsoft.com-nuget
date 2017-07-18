@@ -15,7 +15,7 @@ ms.assetid: 100606fd-0a03-4274-8ebf-7d778f73869c
 
 # optional metadata
 
-description: There are a variety of ways to interact with NuGet programmatically: fetching package information and extending authentication with package sources
+description: "There are a variety of ways to interact with NuGet programmatically: fetching package information and extending authentication with package sources"
 #ROBOTS:
 #audience:
 #ms.devlang:
