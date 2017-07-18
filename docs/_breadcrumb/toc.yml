@@ -32,7 +32,7 @@
       topicHref: /nuget/api/introduction
       items:
       - name: V3 API
-        tocHref: /nuget/api/v3
+        tocHref: /nuget/api/v3/
         topicHref: /nuget/api/v3/overview
     - name: Visual Studio Extensibility
       tocHref: /nuget/visual-studio-extensibility/
