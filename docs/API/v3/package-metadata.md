@@ -1,7 +1,7 @@
 ---
 # required metadata 
 
-title: Package Registrations | NuGet V3 API | Microsoft Docs
+title: Package Metadata | NuGet V3 API | Microsoft Docs
 author: kraigb
 ms.author: kraigb
 manager: ghogen
@@ -27,5 +27,5 @@ ms.reviewer:
 #ms.custom:
 ---
 
-# Package Registrations
+# Package Metadata
 
