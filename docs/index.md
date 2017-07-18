@@ -169,7 +169,7 @@ ms.reviewer:
                                 </a>
                             </li>
                             <li class="column column-third">
-                                <a href="./api/nuget-v3-api.md">
+                                <a href="./api/overview.md">
                                     <h3>API</h3>
                                     <p>Details about the NuGet API and authenticating with package sources.</p>
                                 </a>
