@@ -59,7 +59,8 @@
 ## [Target Frameworks](Schema/Target-Frameworks.md)
 ## [Analyzers Conventions](Schema/Analyzers-Conventions.md)
 # API
-## [NuGet API V3](API/NuGet-API-V3.md)
+## [NuGet V3 API](API/NuGet-V3-API.md)
+## [NuGet Client SDK](API/NuGet-Client-SDK.md)
 ## [NuGet Credential Providers for Visual Studio](API/Nuget-Credential-Providers-for-Visual-Studio.md)
 ## [nuget.exe Credential Providers](API/nuget-exe-Credential-Providers.md)
 # Visual Studio Extensibility

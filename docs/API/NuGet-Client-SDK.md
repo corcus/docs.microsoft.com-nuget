@@ -28,7 +28,7 @@ ms.reviewer:
 #ms.custom:
 ---
 
-# NuGet API v3
+# NuGet Client SDK
 
 The NuGet v3 Client and NuGetGallery APIs are constantly evolving and we are working on having a stable surface area that we can document soon.
 
