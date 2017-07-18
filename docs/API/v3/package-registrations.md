@@ -11,7 +11,7 @@ ms.prod: nuget
 #ms.service:
 ms.technology: null
 
-ms.assetid: 6ff3dac0-d5c4-4a09-a4f1-705ae6977165
+ms.assetid: 96b07019-c2e1-4f40-9290-f65ad71af3b1
 
 # optional metadata
 
