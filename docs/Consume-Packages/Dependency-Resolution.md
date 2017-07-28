@@ -44,7 +44,7 @@ In some cases, such as when there's a conflict between a dependency specified in
 
 When `packages.config` is used (NuGet 2.x+), a project's dependencies are written to `packages.config` as a flat list. Any dependencies of those packages are also written in the same list. When packages are installed, NuGet might also modify the `.csproj` file, `app.config`, `web.config`, and other individual files.
 
-With `packages.config`, NuGet attempts to resolve dependency conflicts during the installation of each individual package. That is, if Package A is being installed and depends on Package B, and Package B is already listed in `packages.config` as a dependency of something else, NuGet compares the versions of Package B being requested and attempts to find a version that satisfies all version constraints. Specifically, NuGet selects the lower *major.minor* version that satisfies dependencies.
+With `packages.config`, NuGet attempts to resolve dependency conflicts during the installation of each individual package. That is, if Package A is being installed and depends on Package B, and Package B is already listed in `packages.config` as a dependency of something else, NuGet compares the versions of Package B being requested and attempts to find a version that satisfies all version constraints. Specifically, NuGet selects the lowest *major.minor* version that satisfies dependencies.
 
 By default, NuGet 2.7 and earlier resolves the highest *patch* version (using the *major.minor.patch.build* convention). [NuGet 2.8 and higher](../release-notes/nuget-2.8.md#patch-resolution-for-dependencies) changes this behavior to look for the lowest patch version by default. You can control this setting through the `DependencyVersion` attribute in `Nuget.Config` and the `-DependencyVersion` switch on the command line.  
 
@@ -135,7 +135,7 @@ There are scenarios in which assemblies with the same name might be referenced m
 
 To resolve this, you must directly reference the `C.dll` you want (or use another package that references the right one), and then add a dependency on packageC that excludes all its assets. This is done as follows:
 
-- If you're project is using `packages.config` for tracking NuGet dependencies, simply remove the reference to packageC from the `.csproj` file so that it references only the version of `C.dll` that you want.
+- If your project is using `packages.config` for tracking NuGet dependencies, simply remove the reference to packageC from the `.csproj` file so that it references only the version of `C.dll` that you want.
     
 - If your project uses `project.json` for NuGet, add `"exclude" : "all"` in the dependency for packageC:
 

@@ -1,3 +1,4 @@
+# [What is NuGet?](What-is-NuGet.md)
 # Quickstart
 ## [Create and Publish a Package](Quickstart/Create-and-Publish-a-Package.md)
 ## [Use a Package](Quickstart/Use-a-Package.md)
@@ -50,7 +51,7 @@
 ### [Uninstall-Package](Tools/ps-ref-uninstall-package.md)
 ### [Update-Package](Tools/ps-ref-update-package.md)
 ## [dotnet Commands](Tools/dotnet-Commands.md)
-# Schema
+# Reference
 ## [.nuspec](Schema/nuspec.md)
 ## [packages.config](Schema/packages-config.md)
 ## [project.json](Schema/project-json.md)
@@ -58,6 +59,7 @@
 ## [Nuget.Config file](Schema/nuget-config-file.md)
 ## [Target Frameworks](Schema/Target-Frameworks.md)
 ## [Analyzers Conventions](Schema/Analyzers-Conventions.md)
+## [Errors and warnings (PREVIEW)](Reference/Errors-and-Warnings.md)
 # API
 ## [Overview](API/introduction.md)
 ## [V3 API](API/v3/overview.md)
@@ -80,6 +82,7 @@
 ## [Ecosystem](Policies/Ecosystem.md)
 ## [Dispute Resolution](Policies/Dispute-Resolution.md)
 ## [Deleting Packages](Policies/Deleting-Packages.md)
+# [GitHub Repositories](https://github.com/NuGet)
 # Release Notes
 ## [Known Issues](Release-Notes/Known-Issues.md)
 ## [NuGet 4.0 RTM](Release-Notes/NuGet-4.0-RTM.md)
