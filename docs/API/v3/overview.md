@@ -60,7 +60,7 @@ The service index schema version is indicated as a JSON property in the document
 
 ```
 {
-    "version": "3.0.0"
+    "version": "3.0.0-beta.1"
     ...
 }
 ```
@@ -95,11 +95,11 @@ The service index mentions a variety of resources. Today, the set of supported r
 
 ## HTTP Verbs
 
-Verb     | Used for...
--------- | -----------
-`GET`    | Perform a read-only operation, typically getting data
-`PUT`    | Create a resource that doesn't exist or, if it does exist, update it
-`DELETE` | Delete or unlist a resource.
+Verb   | Used for...
+------ | -----------
+GET    | Perform a read-only operation, typically getting data
+PUT    | Create a resource that doesn't exist or, if it does exist, update it
+DELETE | Delete or unlist a resource.
 
 ## HTTP Status Codes
 
@@ -111,10 +111,9 @@ Code | Notes
 204  | Success, but there is no response body
 400  | The parameters in the URL or in the request body aren't valid
 401  | The provided credentials are invalid
-403  | The provided action is not allowed given the provided credentials
+403  | The action is not allowed given the provided credentials
 404  | The requested resource doesn't exist
-409  | The provided request conflicts with an existing resource
-
+409  | The request conflicts with an existing resource
 
 ## Authentication
 
