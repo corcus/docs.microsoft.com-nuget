@@ -35,7 +35,7 @@ and perform most other operations available in the official NuGet clients.
 This API is used by the NuGet client in Visual Studio, nuget.exe, and the .NET CLI to perform NuGet operations such as
 `dotnet restore`, search in the Visual Studio UI, and `nuget.exe push`.
 
-## Entry Point
+## Service Index
 
 The entry point for the V3 API is a JSON document in a well known location. This document is called the **service index**.
 For NuGet.org, the location of the service index is here:
