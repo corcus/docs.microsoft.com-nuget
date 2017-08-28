@@ -1,12 +1,12 @@
 ---
 # required metadata 
 
-title: Service Index | NuGet V3 API | Microsoft Docs
+title: Service Index reference, NuGet V3 API | Microsoft Docs
 author: kraigb
 ms.author: kraigb
 manager: ghogen
 ms.date: 7/18/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: nuget
 #ms.service:
 ms.technology: null
@@ -27,13 +27,13 @@ ms.reviewer:
 #ms.custom:
 ---
 
-# Service Index
+# Service index reference
 
-NuGet.org's V3 service index looks something like is this:
+The V3 service index for nuget.org looks something like is this:
 
 [!code-REST [service-index.json](./_data/service-index.json)]
 
-Under the `"resources"` property is an array of services supported by this package source.
+The `"resources"` property contains an array of services supported by this package source.
 
 ### Resource
 

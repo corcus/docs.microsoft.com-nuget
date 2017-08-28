@@ -1,7 +1,7 @@
 ---
 # required metadata 
 
-title: Publishing | NuGet V3 API | Microsoft Docs
+title: PackageBaseAddress resource, NuGet V3 API | Microsoft Docs
 author: kraigb
 ms.author: kraigb
 manager: ghogen
@@ -11,11 +11,11 @@ ms.prod: nuget
 #ms.service:
 ms.technology: null
 
-ms.assetid: 1eaa403a-5c13-4c05-9352-2f791b98aa7e
+ms.assetid: ec68b5d1-a684-4995-b1a6-6210dbb24875
 
 # optional metadata
 
-description: The publish service allows clients to publish new packages and unlist or delete existing packages.
+description: The package base address is a simple interface for fetching the package itself.
 #ROBOTS:
 #audience:
 #ms.devlang:
@@ -27,5 +27,5 @@ ms.reviewer:
 #ms.custom:
 ---
 
-# Publishing
+# PackageBaseAddress
 
