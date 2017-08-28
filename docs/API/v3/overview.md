@@ -78,7 +78,7 @@ Resource name | Description
 --- | ---
 [`PackagePublish` resource](package-publish-resource.md) | Push and unlist packages.
 [`SearchQueryService` resource](search-query-service-resource.md) | Filter and search for packages by keyword.
-[`SearchAutocompleteService` resource](search-autocomplete-service-resource.md) | Discovery package IDs and versions by substring.
+[`SearchAutocompleteService` resource](search-autocomplete-service-resource.md) | Discover package IDs and versions by substring.
 [`RegistrationsBaseUrl` resource](registration-base-url-resource.md) | Get package metadata.
 [`PackageBaseAddress` resource](package-base-address-resource.md) | Get package content (.nupkg).
 
